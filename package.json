@@ -4,7 +4,7 @@
   "description": "To keep all the packages that will be used ",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine",
     "start": "node server.js"
   },
   "author": "Derefaa Cline",
@@ -14,5 +14,9 @@
     "express": "^4.16.3",
     "mongoose": "^5.2.3",
     "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "request": "^2.87.0"
   }
 }
